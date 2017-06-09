@@ -14,12 +14,12 @@ ActiveRecord::Schema.define(version: 20170609130815) do
 
   create_table "weekly_results", force: :cascade do |t|
     t.date "drawing_date"
-    t.decimal "number1"
-    t.decimal "number2"
-    t.decimal "number3"
-    t.decimal "number4"
-    t.decimal "number5"
-    t.decimal "powerball"
+    t.decimal "number1", precision: 0
+    t.decimal "number2", precision: 0
+    t.decimal "number3", precision: 0
+    t.decimal "number4", precision: 0
+    t.decimal "number5", precision: 0
+    t.decimal "powerball", precision: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
