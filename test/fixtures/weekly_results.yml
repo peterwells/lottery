@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  drawing_date: 2017-06-09
+  number1: 
+  number2: 
+  number3: 
+  number4: 
+  number5: 
+  powerball: 
+
+two:
+  drawing_date: 2017-06-09
+  number1: 
+  number2: 
+  number3: 
+  number4: 
+  number5: 
+  powerball: 

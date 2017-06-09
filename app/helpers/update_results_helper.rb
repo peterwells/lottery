@@ -1,0 +1,2 @@
+module UpdateResultsHelper
+end

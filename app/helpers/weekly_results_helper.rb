@@ -1,0 +1,2 @@
+module WeeklyResultsHelper
+end
