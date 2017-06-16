@@ -1,6 +1,9 @@
 <h1>UpdateResults#index</h1>
 <p>Find me in app/views/update_results/index.html.erb</p>
 
+<p><%= @ctr %> records inserted</p>
+<br/>
 <% @resultArr.each do |r| %>
-  <%= r.drawing_date %>
+  <p><%= r.to_s %></p>
+  <br/>
 <% end %>
